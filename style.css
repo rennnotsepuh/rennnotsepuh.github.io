@@ -627,7 +627,7 @@ label #cancel {
   justify-content: center;
   flex-direction:column;
   margin-top: 20px;
-  text-align: left;
+
 }
 .contact-content ul{
     row-gap: 20px;
@@ -636,6 +636,7 @@ label #cancel {
 .contact-content ul li {
   list-style-type: disc;
   padding: 10px;
+  text-align: left;
 }
 .contact-content ul li a{
   color: #BDBDBD;
