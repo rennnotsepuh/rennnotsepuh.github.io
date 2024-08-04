@@ -83,7 +83,7 @@ label #cancel {
 }
 
 section {
-   background: url(bg.jpg) no-repeat;
+   background: url(asset/bg.jpg) no-repeat;
  background-size: cover;
  background-position: bottom;
 
