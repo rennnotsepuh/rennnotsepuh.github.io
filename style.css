@@ -395,6 +395,7 @@ label #cancel {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: left;
 }
 
 .skills-wrapper-scroll {
