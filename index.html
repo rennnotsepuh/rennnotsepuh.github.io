@@ -348,7 +348,7 @@
 
 
   <script>
-  alert("website ini sedang dalam mode uji coba dan penambahan fitur seperti game dan ebook, terimakasih ")
+
     const checkboxes = document.querySelectorAll('input[name="check-sidebar"]');
 
     checkboxes.forEach((checkbox) => {
@@ -372,11 +372,11 @@
             if (screenWidth < 600) {
                 // Set viewport untuk layar kecil
                 metaViewport.setAttribute('content', 'width=1024, initial-scale=0.5');
-                alert("Tampilan desktop diaktifkan untuk layar kecil.");
+                console.log("Tampilan desktop diaktifkan untuk layar kecil.");
             } else if (screenWidth >= 600 && screenWidth < 1400) {
                 // Set viewport untuk layar sedang
                 metaViewport.setAttribute('content', 'width=1024, initial-scale=1');
-                alert("Tampilan desktop diaktifkan untuk layar sedang.");
+                console.log("Tampilan desktop diaktifkan untuk layar sedang.");
             } else {
                 // Tidak perlu perubahan untuk layar lebar
 
@@ -387,7 +387,7 @@
         // Panggil fungsi untuk memeriksa dan mengatur viewport
         checkAndSetViewport();
     });
-    alert("html css only😄😄")
+    
     
                 // Cek apakah perangkat adalah mobile
 console.log(navigator.userAgent)
