@@ -205,7 +205,7 @@ label #cancel {
 /*      CONTENT WIR WOOYY
                  CONTENTTTTT START       */
 #home {
-
+  padding-top: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
